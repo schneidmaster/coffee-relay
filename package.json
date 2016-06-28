@@ -1,0 +1,34 @@
+{
+  "name": "coffee-relay",
+  "version": "1.0.0",
+  "description": "Handle Relay.QL fragments in CoffeeScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schneidmaster/coffee-relay.git"
+  },
+  "keywords": [
+    "relay",
+    "coffee",
+    "coffeescript",
+    "graphql",
+    "react"
+  ],
+  "author": "Zach Schneider <zach@schneid.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/schneidmaster/coffee-relay/issues"
+  },
+  "homepage": "https://github.com/schneidmaster/coffee-relay#readme",
+  "dependencies": {
+    "babel-core": "^6.10.4",
+    "babel-relay-plugin": "^0.9.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  }
+}
